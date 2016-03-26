@@ -6,7 +6,8 @@
         counter.setAttribute('value', newValue);
     }
 
-    var cat = document.getElementById("cat");
-    cat.addEventListener("click", addCounter);
-
+    var cats = document.getElementsByClassName("cat");
+    for(var i = 0; i < cats.length; ++i) {
+        cats[i].addEventListener("click", addCounter);
+    }
 })(window, document);

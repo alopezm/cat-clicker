@@ -1,8 +1,29 @@
-.img{
-    max-width: 800px;
-    margin: auto;
+body{
+    font: 16px/16px Arial;
 }
 
-.center-text{ text-align: center;}
+h1{
+    font: 2em/2em Arial;
+}
 
-.img img{  width: 100%;  cursor: pointer; }
+.center-text{text-align: center;}
+
+.img{
+    max-width: 1200px;
+    margin: auto;
+    white-space: nowrap;
+}
+
+.img .cat{
+    width: 50%;
+    cursor: pointer;
+    display: inline;
+    white-space: normal;
+    vertical-align: top;
+}
+
+.result{
+    margin: 10px 0;
+    border-top: 1px solid #000;
+    padding: 10px 0;
+}
