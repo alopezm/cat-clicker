@@ -1,5 +1,6 @@
 body{
     font: 16px/16px Arial;
+    padding: 10px;
 }
 
 h1{
@@ -15,7 +16,7 @@ h1{
 }
 
 .img .cat{
-    width: 50%;
+    width: 100%;
     cursor: pointer;
     display: inline;
     white-space: normal;
@@ -26,4 +27,24 @@ h1{
     margin: 10px 0;
     border-top: 1px solid #000;
     padding: 10px 0;
+}
+
+.list-cats{
+    box-sizing: content-box;
+    list-style: none;
+    display: block;
+    margin: 20px 0;
+}
+.list-cats li{
+    box-sizing: content-box;
+    display: inline;
+    margin: 0;
+    border: 1px solid rgba(41, 43, 46, 0.57);
+    padding: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.list-cats li:hover{
+    background-color: rgba(178, 187, 190, 0.44);
 }
