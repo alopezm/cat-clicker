@@ -1,0 +1,8 @@
+.img{
+    max-width: 800px;
+    margin: auto;
+}
+
+.center-text{ text-align: center;}
+
+.img img{  width: 100%;  cursor: pointer; }
