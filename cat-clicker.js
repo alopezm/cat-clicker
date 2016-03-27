@@ -10,7 +10,7 @@
                 'Romeo' : {img: 'media/cat0.jpg', count: 0},
                 'Lucho' : {img: 'media/cat1.jpg', count: 0},
                 'Mandy' : {img: 'media/cat2.jpg', count: 0},
-                'Billy' : {img: 'media/comfortable-cat.jpg', count: 0},
+                'Billy' : {img: 'media/cat3.jpg', count: 0},
                 'Shamizen' : {img: 'media/cat-1404368.jpg', count: 0}
             };
 
