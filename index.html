@@ -18,12 +18,29 @@
         <ul id="list-cats" class="list-cats"></ul>
     </div>
 
-
     <div class="img">
         <div class="result">
             <label for="cat-counter"><span id="cat-name"></span> count: </label><input type="text" name="counter" id="cat-counter" disabled>
         </div>
-        <img id="cat-img" class="cat" alt="Cat">
+        <img id="cat-img" class="cat" alt="Cat" src="">
+    </div>
+
+    <div class="wrapper-admin-menu">
+        <div class="admin-menu">
+            <div class="close">x</div>
+            <form id="admin">
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+                <label for="img">Image: </label>
+                <input type="text" id="img">
+                <label for="count">Count: </label>
+                <input type="text" id="count">
+                <div class="options">
+                    <button id="save" class="success btn">Save</button>
+                    <button id="cancel" class="cancel btn">Cancel</button>
+                </div>
+            </form>
+        </div>
     </div>
 
     <script src="cat-clicker.js"></script>
